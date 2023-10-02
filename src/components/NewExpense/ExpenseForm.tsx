@@ -1,4 +1,4 @@
-import React, { PropsWithChildren, useState } from 'react'
+import React, { useState } from 'react'
 import { ExpenseFormProps, ExpenseItemProps } from '../../modules/expenseItem'
 const ExpenseForm: React.FC<ExpenseFormProps> = (props) => {
   const [enteredTitle, setEnteredTitle] = useState('')

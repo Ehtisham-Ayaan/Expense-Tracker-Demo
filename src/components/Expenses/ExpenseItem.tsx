@@ -1,7 +1,6 @@
 import { ExpenseItemProps } from "../../modules/expenseItem"
 import ExpenseDate from "./ExpenseDate"
 import Card from "../UI/Card"
-import React, { useState } from "react"
 
 const ExpenseItem = (props: ExpenseItemProps) => {
   
